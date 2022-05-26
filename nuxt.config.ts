@@ -6,10 +6,10 @@ export default defineNuxtConfig({
   // generate: {
   //   dir: 'docs'
   // },
-  router: {
-    base: '/mhrise-crown-list/'
-  },
-  // app: {
-  //   cdnURL: '/yuzu-pri-mhrise-crown-list/'
-  // }
+  // router: {
+  //   base: '/mhrise-crown-list/'
+  // },
+  app: {
+    baseURL: '/mhrise-crown-list/'
+  }
 })
