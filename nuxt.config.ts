@@ -4,6 +4,7 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   ssr: false,
   app: {
-    cdnURL: '/yuzu-pri-mhrise-crown-list/'
+    buildAssetsDir: '/assets/',
+    baseURL: '/mhrise-crown-list/'
   }
 })
